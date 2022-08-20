@@ -4,10 +4,50 @@ import Course from '../components/Course';
 import Main from '../components/Main';
 import Testimonials from '../components/Testimonial';
 export default function Landing() {
- 
+  //  window.onscroll = function () {
+  //    myFunction();
+  //  };
+
+  //  function myFunction() {
+  //   if(document){
+
+  //    var winScroll =
+  //      document.body.scrollTop || document.documentElement.scrollTop;
+  //    var height =
+  //      document.documentElement.scrollHeight -
+  //      document.documentElement.clientHeight;
+  //    var scrolled = (winScroll / height) * 100;
+  //   document && document.getElementById('myBar').style.width == scrolled + '%';
+  //   }
+
+  //  }
+  //  const ScrollIndicator = () => {
+  // const [scroll, setScroll] = useState(0);
+
+  // const onScroll = () => {
+  //   const Scrolled = document.documentElement.scrollTop;
+  //   const MaxHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const ScrollPercent = (Scrolled / MaxHeight) * 100;
+  //   setScroll(ScrollPercent);
+  // };
+
+  // if (typeof window !== 'undefined') {
+  //   window.addEventListener('scroll', onScroll);
+  // }
+  
   return (
     <>
       <main>
+        {/* <div className='progress-container sticky'>
+          <div
+            className='progress-bar'
+            style={{ width: `${scroll}%` }}
+            id='myBar'
+          ></div>
+        </div> */}
+
         <Main />
         <Course />
         <div className={`relative mt-40 bg-gray-700`}>
@@ -25,13 +65,13 @@ export default function Landing() {
               y='0'
             >
               <polygon
-                className='text-gray-700 fill-current'
+                className='text-red-300 fill-current'
                 points='2560 0 2560 100 0 100'
               ></polygon>
             </svg>
           </div>
         </div>
-        <div className='bg-gray-700 pb-24 pt-4'>
+        <div className='bg-red-300 pb-24 pt-4'>
           <div className='container mx-auto px-4'>
             <div className='flex flex-wrap justify-center lg:mt-24 mt-28'>
               <div className='w-full lg:w-6/12 px-4'>

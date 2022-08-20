@@ -15,7 +15,7 @@ const Main = () => {
             </span>
 
             <div className='flex justify-center'>
-              <button className='inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg'>
+              <button className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
                 Button
               </button>
             </div>
@@ -25,21 +25,21 @@ const Main = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
-            <h1 className='sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4'>
+            <h1 className='sm:text-3xl text-2xl font-medium title-font text-red-700 mb-4'>
               Raw Denim Heirloom Man Braid
             </h1>
-            <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s'>
+            <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-900 dark:text-white font-medium'>
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
               mi pug.
             </p>
             <div className='flex mt-6 justify-center'>
-              <div className='w-16 h-1 rounded-full bg-red-500 inline-flex'></div>
+              <div className='w-16 h-1 rounded-full bg-indigo-500 inline-flex'></div>
             </div>
           </div>
           <div className='flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6'>
             <div className='p-4 md:w-1/3 flex flex-col text-center items-center'>
-              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-5 flex-shrink-0'>
+              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0'>
                 <svg
                   fill='none'
                   stroke='currentColor'
@@ -53,15 +53,15 @@ const Main = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
+                <h2 className='text-red-700 text-lg title-font font-medium mb-3'>
                   Shooting Stars
                 </h2>
-                <p className='leading-relaxed text-base'>
+                <p className='leading-relaxed text-base text-black dark:text-white'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 text-red-500 inline-flex items-center'>
+                <a className='mt-3 text-indigo-500 inline-flex items-center'>
                   Learn More
                   <svg
                     fill='none'
@@ -78,7 +78,7 @@ const Main = () => {
               </div>
             </div>
             <div className='p-4 md:w-1/3 flex flex-col text-center items-center'>
-              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-5 flex-shrink-0'>
+              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0'>
                 <svg
                   fill='none'
                   stroke='currentColor'
@@ -94,15 +94,15 @@ const Main = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
+                <h2 className='text-red-700 text-lg title-font font-medium mb-3'>
                   The Catalyzer
                 </h2>
-                <p className='leading-relaxed text-base'>
+                <p className='leading-relaxed text-base text-black dark:text-white'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 text-red-500 inline-flex items-center'>
+                <a className='mt-3 text-indigo-500 inline-flex items-center'>
                   Learn More
                   <svg
                     fill='none'
@@ -119,7 +119,7 @@ const Main = () => {
               </div>
             </div>
             <div className='p-4 md:w-1/3 flex flex-col text-center items-center'>
-              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-5 flex-shrink-0'>
+              <div className='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0'>
                 <svg
                   fill='none'
                   stroke='currentColor'
@@ -134,15 +134,15 @@ const Main = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-gray-900 text-lg title-font font-medium mb-3'>
+                <h2 className='text-red-700 text-lg title-font font-medium mb-3'>
                   Neptune
                 </h2>
-                <p className='leading-relaxed text-base'>
+                <p className='leading-relaxed text-base text-black dark:text-white'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 text-red-500 inline-flex items-center'>
+                <a className='mt-3 text-indigo-500 inline-flex items-center'>
                   Learn More
                   <svg
                     fill='none'

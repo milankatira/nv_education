@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
+      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-1 z-10 bg-white dark:bg-red-200 backdrop-filter backdrop-blur-lg bg-opacity-20'>
         <div>
           <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 mx-8'>
             <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
@@ -81,51 +81,52 @@ const Navbar = () => {
                 src='/NVlogo.png'
                 alt=''
               />
-              <span className='ml-3 text-xl'>Nv Education</span>
+              <span className='ml-3 text-xl dark:text-black'>Nv Education</span>
             </a>
           </Link>
 
           <nav className='md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center'>
             <Link href='/'>
               <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                HOME
+                Home
               </a>
             </Link>
             <Link href='/about'>
               <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                ABOUT
+                About
               </a>
             </Link>
             <Link href='/dmitreport'>
-              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                DMIT REPORT
+              <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+                CAREER
               </a>
             </Link>
-            <Link href='/course'>
-              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                COURSE
-              </a>
+            <Link href='/'>
+
+            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
+              course
+            </a>
             </Link>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              First Link
+            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              DMIT REPORT
             </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Second Link
+            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              EVENTS
             </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Third Link
+            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              GALLERY
             </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Fourth Link
+            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              BADA BUSINESS
             </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Fourth Link
+            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              CONTACT
             </a>
           </nav>
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
             {theme === 'dark' ? (
               <svg
-                className='h-4 w-4 mr-4 dark:text-white'
+                className='h-4 w-4 mr-4 dark:text-black'
                 fill='currentColor'
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 512 512'
