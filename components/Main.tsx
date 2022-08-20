@@ -12,7 +12,6 @@ const Main = () => {
                 {Data.main.M2}
               </span>
             </span>
-
           </div>
         </div>
       </section>
