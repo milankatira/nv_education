@@ -14,10 +14,10 @@ const Dmitreport = () => {
                   src='/d1.jpg'
                 />
               </div>
-              <h2 className='title-font text-2xl font-medium text-gray-900 mt-6 mb-3'>
+              <h2 className='title-font text-2xl font-medium text-red-700 mt-6 mb-3'>
                 Buy YouTube Videos
               </h2>
-              <p className='leading-relaxed text-base'>
+              <p className='leading-relaxed text-base dark:text-white'>
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -30,10 +30,10 @@ const Dmitreport = () => {
                   src='/d3.jpg'
                 />
               </div>
-              <h2 className='title-font text-2xl font-medium text-gray-900 mt-6 mb-3'>
+              <h2 className='title-font text-2xl font-medium text-red-700 mt-6 mb-3'>
                 The Catalyzer
               </h2>
-              <p className='leading-relaxed text-base'>
+              <p className='leading-relaxed text-base dark:text-white'>
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -48,10 +48,10 @@ const Dmitreport = () => {
                   src='/d8.jpg'
                 />
               </div>
-              <h2 className='title-font text-2xl font-medium text-gray-900 mt-6 mb-3'>
+              <h2 className='title-font text-2xl font-medium text-red-700 mt-6 mb-3'>
                 Buy YouTube Videos
               </h2>
-              <p className='leading-relaxed text-base'>
+              <p className='leading-relaxed text-base dark:text-white'>
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>
@@ -64,10 +64,10 @@ const Dmitreport = () => {
                   src='/d9.jpg'
                 />
               </div>
-              <h2 className='title-font text-2xl font-medium text-gray-900 mt-6 mb-3'>
+              <h2 className='title-font text-2xl font-medium text-red-700 mt-6 mb-3'>
                 The Catalyzer
               </h2>
-              <p className='leading-relaxed text-base'>
+              <p className='leading-relaxed text-base dark:text-white'>
                 Williamsburg occupy sustainable snackwave gochujang. Pinterest
                 cornhole brunch, slow-carb neutra irony.
               </p>

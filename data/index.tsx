@@ -48,7 +48,7 @@ export const about = {
   h1: "Success Doesn't Come to you You Go to it.",
   h2: 'He has Learnt and worked with the best experts in the industry with Business Development coach, Mind or Memory Development coach,NLP Practioner, Motivational Speaker,Life coach and Many More.',
   h3: 'He has 15 Years experience in education field.',
-  h4: 'He is a teacher and he ws worked in 9 reputed school.',
+  h4: 'He is a teacher and he had worked in 9 reputed schools.',
   h5: 'He will help your uncover things which hold you back in life, and stop you From Growing.',
   h6: 'Tap in to your hidden potentials and facilitate your true Brilliance to come out.',
 };
