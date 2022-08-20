@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ContanctUs = () => {
   return (
@@ -17,7 +17,7 @@ const ContanctUs = () => {
                   </p>
                   <div className='w-full mb-3 mt-8'>
                     <label
-                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2 dark:text-black'
                       htmlFor='full-name'
                     >
                       Full Name
@@ -31,7 +31,7 @@ const ContanctUs = () => {
 
                   <div className='relative w-full mb-3'>
                     <label
-                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2 text-black'
                       htmlFor='email'
                     >
                       Email
@@ -45,7 +45,7 @@ const ContanctUs = () => {
 
                   <div className='relative w-full mb-3'>
                     <label
-                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2 text-black'
                       htmlFor='message'
                     >
                       Message
@@ -73,6 +73,6 @@ const ContanctUs = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContanctUs
+export default ContanctUs;
