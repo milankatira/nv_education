@@ -1,13 +1,53 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import React, { useState } from 'react';
 import Course from '../components/Course';
 import Main from '../components/Main';
 import Testimonials from '../components/Testimonial';
 export default function Landing() {
- 
+  //  window.onscroll = function () {
+  //    myFunction();
+  //  };
+
+  //  function myFunction() {
+  //   if(document){
+
+  //    var winScroll =
+  //      document.body.scrollTop || document.documentElement.scrollTop;
+  //    var height =
+  //      document.documentElement.scrollHeight -
+  //      document.documentElement.clientHeight;
+  //    var scrolled = (winScroll / height) * 100;
+  //   document && document.getElementById('myBar').style.width == scrolled + '%';
+  //   }
+
+  //  }
+  //  const ScrollIndicator = () => {
+  // const [scroll, setScroll] = useState(0);
+
+  // const onScroll = () => {
+  //   const Scrolled = document.documentElement.scrollTop;
+  //   const MaxHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const ScrollPercent = (Scrolled / MaxHeight) * 100;
+  //   setScroll(ScrollPercent);
+  // };
+
+  // if (typeof window !== 'undefined') {
+  //   window.addEventListener('scroll', onScroll);
+  // }
+  
   return (
     <>
       <main>
+        {/* <div className='progress-container sticky'>
+          <div
+            className='progress-bar'
+            style={{ width: `${scroll}%` }}
+            id='myBar'
+          ></div>
+        </div> */}
+
         <Main />
         <Course />
         <div className={`relative mt-40 bg-gray-700`}>

@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
+      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-1 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
         <div>
           <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 mx-8'>
             <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>

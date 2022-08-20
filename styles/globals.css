@@ -19,6 +19,18 @@ a {
   box-sizing: border-box;
 }
 
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #04AA6D;
+  width: 0%;
+}
+
 .main-bg {
   width: 100% !important;
   background-image: url('../public/mail_bg.jpg');
