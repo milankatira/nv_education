@@ -3,7 +3,7 @@ import React from 'react';
 import { course, CourseContain } from '../data';
 const About = () => {
   return (
-    <div className='h-[100vh] w-full'>
+    <div className='w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
         <div className='text-4xl font-sans font-bold'>{course.heading}</div>

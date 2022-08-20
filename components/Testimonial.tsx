@@ -13,7 +13,7 @@ export default class Testimonials extends Component {
         showStatus={false}
         autoPlay={true}
         interval={5100}
-        className='w-full h-full flex justify-center pb-20 items-center '
+        className='w-full h-full flex justify-center pb-20 items-center mt-40 lg:mt-10'
       >
         <section className='text-gray-700 body-font dark:text-gray-100 bg-white dark:bg-black'>
           <div className='container px-5 py-24 mx-auto'>
