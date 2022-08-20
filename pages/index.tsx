@@ -36,7 +36,7 @@ export default function Landing() {
   // if (typeof window !== 'undefined') {
   //   window.addEventListener('scroll', onScroll);
   // }
-  
+
   return (
     <>
       <main>
@@ -65,28 +65,28 @@ export default function Landing() {
               y='0'
             >
               <polygon
-                className='text-gray-700 fill-current'
+                className='text-red-300 fill-current'
                 points='2560 0 2560 100 0 100'
               ></polygon>
             </svg>
           </div>
         </div>
-        <div className='bg-gray-700 pb-24 pt-4'>
+        <div className='bg-red-300 pb-24 pt-4'>
           <div className='container mx-auto px-4'>
             <div className='flex flex-wrap justify-center lg:mt-24 mt-28'>
               <div className='w-full lg:w-6/12 px-4'>
                 <div className='flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200'>
                   <div className='flex-auto p-5 lg:p-10'>
-                    <h4 className='text-2xl font-semibold'>
+                    <h4 className='text-2xl font-semibold dark:text-gray-600'>
                       Want to work with us?
                     </h4>
-                    <p className='leading-relaxed mt-1 mb-4 text-blueGray-500'>
+                    <p className='leading-relaxed mt-1 mb-4 text-blueGray-500 dark:text-gray-600'>
                       Complete this form and we will get back to you in 24
                       hours.
                     </p>
                     <div className='w-full mb-3 mt-8'>
                       <label
-                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2 dark:text-gray-600'
                         htmlFor='full-name'
                       >
                         Full Name
@@ -100,7 +100,7 @@ export default function Landing() {
 
                     <div className='relative w-full mb-3'>
                       <label
-                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2 dark:text-gray-600'
                         htmlFor='email'
                       >
                         Email
@@ -114,7 +114,7 @@ export default function Landing() {
 
                     <div className='relative w-full mb-3'>
                       <label
-                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2'
+                        className='block uppercase text-blueGray-600 text-xs font-bold mb-2 dark:text-gray-600'
                         htmlFor='message'
                       >
                         Message
@@ -128,7 +128,7 @@ export default function Landing() {
                     </div>
                     <div className='text-center mt-6'>
                       <button
-                        className='bg-gray-700 text-white active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
+                        className='bg-red-700 text-white active:bg-red-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
                         type='button'
                       >
                         Send Message

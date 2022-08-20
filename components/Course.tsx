@@ -6,8 +6,12 @@ const About = () => {
     <div className='h-[100vh] w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
-        <div className='text-4xl font-sans font-bold'>Popular course</div>
-        <div className='text-base font-sans font-semibold'>Popular course</div>
+        <div className='text-4xl font-sans font-semibold text-red-700'>
+          Popular courses
+        </div>
+        <div className='text-base font-sans font-semibold mt-4'>
+          Popular courses
+        </div>
       </div>
 
       {/* //TODO:main */}
@@ -22,15 +26,15 @@ const About = () => {
                   src='https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
                 />
               </div>
-              <h2 className='text-xl font-medium title-font text-gray-900 mt-5'>
+              <h2 className='text-xl font-medium title-font text-red-700 mt-5'>
                 Shooting Stars
               </h2>
-              <p className='text-base leading-relaxed mt-2'>
+              <p className='text-base leading-relaxed mt-2 dark:text-white'>
                 Swag shoivdigoitch literally meditation subway tile tumblr
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-700 inline-flex items-center mt-3 font-medium'>
                 Learn More
                 <svg
                   fill='none'
@@ -53,15 +57,15 @@ const About = () => {
                   src='https://dummyimage.com/1204x504'
                 />
               </div>
-              <h2 className='text-xl font-medium title-font text-gray-900 mt-5'>
+              <h2 className='text-xl font-medium title-font text-red-700 mt-5'>
                 The Catalyzer
               </h2>
-              <p className='text-base leading-relaxed mt-2'>
+              <p className='text-base leading-relaxed mt-2 dark:text-white'>
                 Swag shoivdigoitch literally meditation subway tile tumblr
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-700 inline-flex items-center mt-3 font-medium'>
                 Learn More
                 <svg
                   fill='none'
@@ -84,15 +88,15 @@ const About = () => {
                   src='https://dummyimage.com/1205x505'
                 />
               </div>
-              <h2 className='text-xl font-medium title-font text-gray-900 mt-5'>
+              <h2 className='text-xl font-medium title-font text-red-700 mt-5'>
                 The 400 Blows
               </h2>
-              <p className='text-base leading-relaxed mt-2'>
+              <p className='text-base leading-relaxed mt-2 dark:text-white'>
                 Swag shoivdigoitch literally meditation subway tile tumblr
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-700 inline-flex items-center mt-3 font-medium'>
                 Learn More
                 <svg
                   fill='none'
