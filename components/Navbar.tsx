@@ -103,9 +103,12 @@ const Navbar = () => {
                 DMIT REPORT
               </a>
             </Link>
+            <Link href='/'>
+
             <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Fourth Link
+              course
             </a>
+            </Link>
             <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
               First Link
             </a>
