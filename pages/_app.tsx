@@ -8,11 +8,13 @@ import Footer from '../components/Footer';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <ThemeProvider attribute='class'>
-        <Navbar />
-        <Component {...pageProps} />
-        <Footer/>
-      </ThemeProvider>
+      <div className='px-20'>
+        <ThemeProvider attribute='class'>
+          <Navbar />
+          <Component {...pageProps} />
+          <Footer />
+        </ThemeProvider>
+      </div>
     </>
   );
 }

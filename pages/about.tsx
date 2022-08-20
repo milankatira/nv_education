@@ -6,8 +6,8 @@ const About = () => {
     <div className='w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
-        <div className='text-4xl font-sans font-bold'>Popular cour</div>
-        <div className='text-base font-sans font-semibold'>Popular cour</div>
+        <div className='text-4xl font-sans font-bold'>Popular course</div>
+        <div className='text-base font-sans font-semibold'>Popular course</div>
       </div>
 
       {/* //TODO:main */}
@@ -25,7 +25,13 @@ const About = () => {
             </div>
             <div className='p-4 md:w-1/2 sm:mb-0 mb-6'>
               <div className='rounded-lg h-auto overflow-hidden'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, consequatur voluptas. Quisquam nostrum consequatur delectus, assumenda nemo fuga voluptatem placeat temporibus voluptatum dolorem, tempora consequuntur soluta voluptates consectetur quae nulla iure officiis dolores ratione quod quaerat iusto ab necessitatibus! Magni, ratione commodi! Vel eum repudiandae amet. Reiciendis iste obcaecati temporibus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id,
+                consequatur voluptas. Quisquam nostrum consequatur delectus,
+                assumenda nemo fuga voluptatem placeat temporibus voluptatum
+                dolorem, tempora consequuntur soluta voluptates consectetur quae
+                nulla iure officiis dolores ratione quod quaerat iusto ab
+                necessitatibus! Magni, ratione commodi! Vel eum repudiandae
+                amet. Reiciendis iste obcaecati temporibus.
               </div>
             </div>
           </div>

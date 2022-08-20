@@ -3,7 +3,7 @@ import { useTheme } from 'next-themes';
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
- 
+
   return (
     <>
       <header className='text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
