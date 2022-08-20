@@ -9,20 +9,6 @@ import { useState } from 'react';
 import ProgressBar from '@badrap/bar-of-progress';
 import { Router } from 'next/router';
 function MyApp({ Component, pageProps }: AppProps) {
-  const [scroll, setScroll] = useState(0);
-
-  const onScroll = () => {
-    const Scrolled = document.documentElement.scrollTop;
-    const MaxHeight =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    const ScrollPercent = (Scrolled / MaxHeight) * 100;
-    setScroll(ScrollPercent);
-  };
-
-  if (typeof window !== 'undefined') {
-    window.addEventListener('scroll', onScroll);
-  }
   const progress = new ProgressBar({
     size: 4,
     color: '#b91c1c',
