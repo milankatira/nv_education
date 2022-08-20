@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 export default function Footer() {
   return (
@@ -67,77 +68,57 @@ export default function Footer() {
                     Useful Links
                   </span>
                   <ul className='list-unstyled'>
-                    <li>
+                    <div className='flex flex-col'>
+                      <Link href='/'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+                          HOME
+                        </a>
+                      </Link>
+                      <Link href='/about'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+                          ABOUT
+                        </a>
+                      </Link>
+
                       <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://www.creative-tim.com/presentation?ref=nnjs-footer'
+                        href='https://nveducation.edumilestones.com/'
+                        className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'
                       >
-                        About Us
+                        CAREER
                       </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://blog.creative-tim.com?ref=nnjs-footer'
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://www.github.com/creativetimofficial?ref=nnjs-footer'
-                      >
-                        Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://www.creative-tim.com/bootstrap-themes/free?ref=nnjs-footer'
-                      >
-                        Free Products
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className='w-full lg:w-4/12 px-4'>
-                  <span className='block uppercase text-blueGray-500 text-sm dark:text-black font-semibold mb-2'>
-                    Other Resources
-                  </span>
-                  <ul className='list-unstyled'>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer'
-                      >
-                        MIT License
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://creative-tim.com/terms?ref=nnjs-footer'
-                      >
-                        Terms & Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://creative-tim.com/privacy?ref=nnjs-footer'
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className='text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm dark:text-black'
-                        href='https://creative-tim.com/contact-us?ref=nnjs-footer'
-                      >
-                        Contact Us
-                      </a>
-                    </li>
+
+                      <Link href='/course'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          COURSE
+                        </a>
+                      </Link>
+
+                      <Link href='/dmitreport'>
+                        <a className=' transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          DMIT REPORT
+                        </a>
+                      </Link>
+                      <Link href='/events'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          EVENTS
+                        </a>
+                      </Link>
+                      <Link href='/gallery'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          GALLERY
+                        </a>
+                      </Link>
+                      <Link href='/business'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          BADA BUSINESS
+                        </a>
+                      </Link>
+                      <Link href='/contact'>
+                        <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                          CONTACT
+                        </a>
+                      </Link>
+                    </div>
                   </ul>
                 </div>
               </div>
@@ -147,12 +128,12 @@ export default function Footer() {
           <div className='flex flex-wrap items-center md:justify-between justify-center'>
             <div className='w-full md:w-4/12 px-4 mx-auto text-center'>
               <div className='text-sm dark:text-black text-blueGray-500 font-semibold py-1'>
-                Copyright © {new Date().getFullYear()} Notus NextJS by{' '}
+                Copyright © {new Date().getFullYear()} made by{' '}
                 <a
                   href='https://www.creative-tim.com?ref=nnjs-footer'
                   className='text-blueGray-500 hover:text-blueGray-800'
                 >
-                  Creative Tim
+                  Advaita Solutions
                 </a>
                 .
               </div>
