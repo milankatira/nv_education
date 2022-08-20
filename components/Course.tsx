@@ -6,8 +6,8 @@ const About = () => {
     <div className='h-[100vh] w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
-        <div className='text-4xl font-sans font-bold'>Popular couffffffr</div>
-        <div className='text-base font-sans font-semibold'>Popular cour</div>
+        <div className='text-4xl font-sans font-bold'>Popular course</div>
+        <div className='text-base font-sans font-semibold'>Popular course</div>
       </div>
 
       {/* //TODO:main */}

@@ -23,21 +23,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     window.addEventListener('scroll', onScroll);
   }
   return (
-    <>
+    <div className='px-20'>
       <ThemeProvider attribute='class'>
         <GoTop />
-        <div className='sticky bg-white top-0 z-10 backdrop-filter backdrop-blur-lg bg-opacity-20'>
-          <div
-            className='progress-bar'
-            style={{ width: `${scroll}%` }}
-            id='myBar'
-          ></div>
-        </div>
         <Navbar />
         <Component {...pageProps} />
         <Footer />
       </ThemeProvider>
-    </>
+    </div>
   );
 }
 
