@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from 'next-themes';
-
+import Link from 'next/link';
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
@@ -75,28 +75,40 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-        <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
-          <a className='flex title-font font-medium items-center text-gray-900 dark:text-white mb-4 md:mb-0'>
-            <img
-              className='w-10 h-10 text-white p-2'
-              src='/NVlogo.png'
-              alt=''
-            />
-            <span className='ml-3 text-xl'>Nv Education</span>
-          </a>
+        <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
+          <Link href='/'>
+            <a className='flex title-font font-medium items-center text-gray-900 dark:text-white mb-4 md:mb-0'>
+              <img
+                className='w-full h-full text-white p-2'
+                src='/NVlogo.png'
+                alt=''
+              />
+              <span className='ml-3 text-xl'>Nv Education</span>
+            </a>
+          </Link>
+
           <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center'>
+            <Link href='/'>
+              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
+                Home
+              </a>
+            </Link>
+            <Link href='/about'>
+              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
+                About
+              </a>
+            </Link>
+            <Link href='/dmitreport'>
+              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
+                DMIT REPORT
+              </a>
+            </Link>
+            <Link href='/'>
+
             <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              First Link
+              course
             </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Second Link
-            </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Third Link
-            </a>
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              Fourth Link
-            </a>
+            </Link>
             <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
               First Link
             </a>

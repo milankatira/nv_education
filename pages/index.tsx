@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Footer from '../components/Footer';
-import About from '../components/About';
+import Course from '../components/Course';
 import Main from '../components/Main';
 import Testimonials from '../components/Testimonial';
 export default function Landing() {
@@ -10,7 +9,7 @@ export default function Landing() {
     <>
       <main>
         <Main />
-        <About />
+        <Course />
         <div className={`relative mt-40 bg-gray-700`}>
           <div
             className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20'
@@ -102,7 +101,7 @@ export default function Landing() {
           </div>
         </div>
       </main>
-      <Testimonials/>
+      <Testimonials />
       {/* <Footer /> */}
     </>
   );
