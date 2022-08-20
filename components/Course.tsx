@@ -30,7 +30,7 @@ const About = () => {
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-500 inline-flex items-center mt-3'>
                 Learn More
                 <svg
                   fill='none'
@@ -61,7 +61,7 @@ const About = () => {
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-500 inline-flex items-center mt-3'>
                 Learn More
                 <svg
                   fill='none'
@@ -92,7 +92,7 @@ const About = () => {
                 cold-pressed. Gastropub street art beard dreamcatcher neutra,
                 ethical XOXO lumbersexual.
               </p>
-              <a className='text-indigo-500 inline-flex items-center mt-3'>
+              <a className='text-red-500 inline-flex items-center mt-3'>
                 Learn More
                 <svg
                   fill='none'

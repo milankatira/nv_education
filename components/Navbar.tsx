@@ -85,41 +85,40 @@ const Navbar = () => {
             </a>
           </Link>
 
-          <nav className='md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center'>
+          <nav className='md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center transition-all duration-300'>
             <Link href='/'>
-              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                Home
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+                HOME
               </a>
             </Link>
             <Link href='/about'>
-              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                About
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+                ABOUT
               </a>
             </Link>
             <Link href='/dmitreport'>
-              <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
                 CAREER
               </a>
             </Link>
-            <Link href='/'>
-
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              course
-            </a>
+            <Link href='/course'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                COURSE
+              </a>
             </Link>
-            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+            <a className=' transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
               DMIT REPORT
             </a>
-            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
               EVENTS
             </a>
-            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
               GALLERY
             </a>
-            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
               BADA BUSINESS
             </a>
-            <a className='text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
+            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
               CONTACT
             </a>
           </nav>
