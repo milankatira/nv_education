@@ -7,7 +7,7 @@ const Main = () => {
         <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center '>
           <div className='lg:flex-grow  flex flex-col mb-16 items-center justify-center text-center'>
             <span className='mr-4 title-font sm:text-8xl text-4xl mb-4 font-medium text-gray-900'>
-              {Data.main.M1}
+              {Data.main.M1} &nbsp;
               <span className='title-font sm:text-8xl text-4xl mb-4 text-red-700'>
                 {Data.main.M2}
               </span>
@@ -16,8 +16,7 @@ const Main = () => {
         </div>
       </section>
       <section className='text-gray-600 body-font'>
-        <div className='container px-5 py-24 mx-auto'>
-        </div>
+        <div className='container px-5 py-24 mx-auto'></div>
       </section>
     </div>
   );
