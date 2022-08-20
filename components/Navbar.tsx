@@ -7,9 +7,9 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white dark:bg-red-200 backdrop-filter backdrop-blur-lg bg-opacity-20'>
+      <header className='dark:bg-red-200 text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-20'>
         <div>
-          <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 mx-8'>
+          <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 dark:border-red-400 mx-8'>
             <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
               <div className='w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start'>
                 <a className='text-sm mr-4 py-2 whitespace-no-wrap text-black flex flex-row'>
@@ -135,10 +135,13 @@ const Navbar = () => {
               </a>
             </Link>
           </nav>
-          <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+          <button
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            className='border-none decoration-none'
+          >
             {theme === 'dark' ? (
               <svg
-                className='h-4 w-4 mr-4 dark:text-black'
+                className='h-6 w-6 mr-4 dark:text-black'
                 fill='currentColor'
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 512 512'
@@ -148,7 +151,7 @@ const Navbar = () => {
             ) : (
               <svg
                 id='theme-toggle-dark-icon'
-                className='h-4 w-4 mr-4 text-gray-200'
+                className='h-6 w-6 mr-4 text-gray-900'
                 fill='currentColor'
                 viewBox='0 0 20 20'
                 xmlns='http://www.w3.org/2000/svg'

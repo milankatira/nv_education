@@ -26,7 +26,7 @@ const GoToTop = () => {
 
   return isVisible ? (
     <div className='top-btn' onClick={goToBtn}>
-      <button className='top-btn--icon shadow-sm'>
+      <button className='shadow-sm'>
         <svg
           className='w-4 h-4 text-white fill-current animate-bounce'
           xmlns='http://www.w3.org/2000/svg'
