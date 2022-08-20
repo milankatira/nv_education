@@ -22,7 +22,7 @@ const Error = () => {
             <p className='px-4 pb-10 text-base leading-none text-center text-gray-600'>
               No signal here! we cannot find the page you are looking for{' '}
             </p>
-            <button className='mx-4 h-10 w-44 border rounded-md text-white text-base bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-indigo-800'>
+            <button className='mx-4 h-10 w-44 border rounded-md text-white text-base bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-red-800'>
               Go Back
             </button>
           </div>

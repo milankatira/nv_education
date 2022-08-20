@@ -1,20 +1,18 @@
 import React from 'react';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
+import { phone_number,email } from '../data';
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
   return (
     <>
-      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-1 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
+      <header className='text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white dark:bg-regal-blue backdrop-filter backdrop-blur-lg bg-opacity-20'>
         <div>
           <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 mx-8'>
             <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
               <div className='w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start'>
-                <a
-                  className='text-sm mr-4 py-2 whitespace-no-wrap text-black flex flex-row'
-                  href='#pablo'
-                >
+                <a className='text-sm mr-4 py-2 whitespace-no-wrap text-black flex flex-row'>
                   <svg
                     className='h-3 w-3 mt-1 mr-3 fill-current text-black'
                     xmlns='http://www.w3.org/2000/svg'
@@ -22,7 +20,7 @@ const Navbar = () => {
                   >
                     <path d='M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z' />
                   </svg>
-                  7283899803 <span className='ml-3'>|</span>
+                  {phone_number} <span className='ml-3'>|</span>
                   <svg
                     className='h-3 w-3 mt-1 mx-3 fill-current text-black'
                     xmlns='http://www.w3.org/2000/svg'
@@ -30,7 +28,7 @@ const Navbar = () => {
                   >
                     <path d='M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z' />
                   </svg>
-                  mail.com
+                  {email}
                 </a>
                 <button
                   className='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
@@ -87,15 +85,15 @@ const Navbar = () => {
             </a>
           </Link>
 
-          <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center'>
+          <nav className='md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center'>
             <Link href='/'>
               <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                Home
+                HOME
               </a>
             </Link>
             <Link href='/about'>
               <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-                About
+                ABOUT
               </a>
             </Link>
             <Link href='/dmitreport'>
@@ -103,11 +101,10 @@ const Navbar = () => {
                 DMIT REPORT
               </a>
             </Link>
-            <Link href='/'>
-
-            <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
-              course
-            </a>
+            <Link href='/course'>
+              <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
+                COURSE
+              </a>
             </Link>
             <a className='text-black dark:text-main-bg mr-5 hover:text-gray-900'>
               First Link

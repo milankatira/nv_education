@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-
+import { about } from '../data';
 const About = () => {
   return (
     <div className='w-full'>
@@ -25,13 +25,27 @@ const About = () => {
             </div>
             <div className='p-4 md:w-1/2 sm:mb-0 mb-6'>
               <div className='rounded-lg h-auto overflow-hidden'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id,
-                consequatur voluptas. Quisquam nostrum consequatur delectus,
-                assumenda nemo fuga voluptatem placeat temporibus voluptatum
-                dolorem, tempora consequuntur soluta voluptates consectetur quae
-                nulla iure officiis dolores ratione quod quaerat iusto ab
-                necessitatibus! Magni, ratione commodi! Vel eum repudiandae
-                amet. Reiciendis iste obcaecati temporibus.
+                <h1 className='font-bold text-4xl mb-4 hover:text-black transition-all duration-300'>
+                  {about.heading}
+                </h1>
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-light text-xl'>
+                  {about.h1}
+                </p>
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-light text-xl'>
+                  {about.h2}
+                </p>{' '}
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-light text-xl'>
+                  {about.h3}
+                </p>{' '}
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-semibold text-xl'>
+                  {about.h4}
+                </p>{' '}
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-light text-xl'>
+                  {about.h5}
+                </p>
+                <p className=' hover:text-black transition-all duration-300 mt-4 font-light text-xl'>
+                  {about.h6}
+                </p>
               </div>
             </div>
           </div>

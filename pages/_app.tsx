@@ -45,12 +45,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div>
       <ThemeProvider attribute='class'>
         <GoTop />
-        <div className='sticky top-0 w-full bg-white backdrop-filter backdrop-blur-lg bg-opacity-20'>
-          <div
-            className='progress-bar'
-            style={{ width: `${scroll}%` }}
-          ></div>
-        </div>
         <Navbar />
         <Component {...pageProps} />
         <Footer />
