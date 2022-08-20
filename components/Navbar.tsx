@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
-import { phone_number,email } from '../data';
+import { phone_number, email } from '../data';
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
@@ -96,31 +96,44 @@ const Navbar = () => {
                 ABOUT
               </a>
             </Link>
-            <Link href='/dmitreport'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 font-semibold'>
-                CAREER
-              </a>
-            </Link>
+
+            <a
+              href='https://nveducation.edumilestones.com/'
+              className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'
+            >
+              CAREER
+            </a>
+
             <Link href='/course'>
               <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
                 COURSE
               </a>
             </Link>
-            <a className=' transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
-              DMIT REPORT
-            </a>
-            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
-              EVENTS
-            </a>
-            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
-              GALLERY
-            </a>
-            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
-              BADA BUSINESS
-            </a>
-            <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
-              CONTACT
-            </a>
+            <Link href='/dmitreport'>
+              <a className=' transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                DMIT REPORT
+              </a>
+            </Link>
+            <Link href='/events'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                EVENTS
+              </a>
+            </Link>
+            <Link href='/gallery'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                GALLERY
+              </a>
+            </Link>
+            <Link href='/business'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                BADA BUSINESS
+              </a>
+            </Link>
+            <Link href='/contact'>
+              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+                CONTACT
+              </a>
+            </Link>
           </nav>
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
             {theme === 'dark' ? (
