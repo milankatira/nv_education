@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.1",
     "@fortawesome/fontawesome-free": "5.15.3",
     "moment": "^2.29.4",
     "next": "12.2.5",

@@ -6,7 +6,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Footer from '../components/Footer';
 import GoTop from '../components/GoTop';
 import { useState } from 'react';
-
+import ProgressBar from '@badrap/bar-of-progress';
+import { Router } from 'next/router';
 function MyApp({ Component, pageProps }: AppProps) {
   const [scroll, setScroll] = useState(0);
 
@@ -22,6 +23,24 @@ function MyApp({ Component, pageProps }: AppProps) {
   if (typeof window !== 'undefined') {
     window.addEventListener('scroll', onScroll);
   }
+  const progress = new ProgressBar({
+    size: 4,
+    color: '#b91c1c',
+    className: 'z-50',
+    delay: 100,
+  });
+
+  Router.events.on('routeChangeStart', () => {
+    progress.start();
+  });
+
+  Router.events.on('routeChangeComplete', () => {
+    progress.finish();
+  });
+
+  Router.events.on('routeChangeError', () => {
+    progress.finish();
+  });
   return (
     <div>
       <ThemeProvider attribute='class'>
