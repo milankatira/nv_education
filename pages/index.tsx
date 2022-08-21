@@ -27,7 +27,7 @@ export default function Landing() {
               y='0'
             >
               <polygon
-                className='text-red-50 dark:text-red-200 fill-current'
+                className='text-white dark:text-red-200 fill-current'
                 points='2560 0 2560 100 0 100'
               ></polygon>
             </svg>

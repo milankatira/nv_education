@@ -3,8 +3,19 @@ import * as Data from '../data';
 const Main = () => {
   return (
     <div className='w-full flex flex-col overflow-hidden mb-4'>
-      <section className='text-gray-600 body-font bg-main-bg'>
-        <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
+      <section className='text-gray-600 body-font'>
+        <div
+          className='w-full mb-4'
+          data-aos='fade-up'
+          data-aos-delay='300'
+        >
+          <img
+            className='object-cover w-full'
+            alt='hero'
+            src='/banner.jpeg'
+          />
+        </div>
+        {/* <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
           <div
             className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'
             data-aos='fade-up'
@@ -48,7 +59,7 @@ const Main = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

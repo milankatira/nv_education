@@ -31,7 +31,7 @@ export default class Testimonials extends Component {
               <p className='leading-relaxed text-lg'>
                 {Testimonial.subtestimonial1.text}
               </p>
-              <span className='inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6'></span>
+              <span className='inline-block h-1 w-10 rounded bg-white0 mt-8 mb-6'></span>
 
               <h2 className='text-gray-900 dark:text-gray-200 font-medium title-font tracking-wider text-sm'>
                 {Testimonial.subtestimonial1.heading}
@@ -54,7 +54,7 @@ export default class Testimonials extends Component {
               <p className='leading-relaxed text-lg'>
                 {Testimonial.subtestimonial2.text}
               </p>
-              <span className='inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6'></span>
+              <span className='inline-block h-1 w-10 rounded bg-white0 mt-8 mb-6'></span>
               <h2 className='text-gray-900 dark:text-gray-200 font-medium title-font tracking-wider text-sm'>
                 {Testimonial.subtestimonial2.heading}
               </h2>

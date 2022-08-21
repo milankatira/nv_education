@@ -5,7 +5,7 @@ import { email, phone_number } from '../data';
 export default function Footer() {
   return (
     <>
-      <footer className='relative bg-red-50 dark:bg-red-200 pt-8 pb-6'>
+      <footer className='relative bg-white dark:bg-red-200 pt-8 pb-6'>
         <div
           className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20'
           style={{ transform: 'translateZ(0)' }}
@@ -20,7 +20,7 @@ export default function Footer() {
             y='0'
           >
             <polygon
-              className='text-red-50 dark:text-red-200 fill-current'
+              className='text-white dark:text-red-200 fill-current'
               points='2560 0 2560 100 0 100'
             ></polygon>
           </svg>
@@ -65,8 +65,7 @@ export default function Footer() {
             <div className='w-full lg:w-6/12 px-4'>
               <div className='flex flex-wrap items-top mb-6'>
                 <div className='w-full lg:w-4/12'>
-              
-                  <ul className='list-unstyled dark:text-black text-red-500'>
+                  <ul className='list-unstyled dark:text-black bg-white0'>
                     <div className='flex flex-col'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'

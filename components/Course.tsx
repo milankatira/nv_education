@@ -25,17 +25,17 @@ const About = () => {
             {CourseContain.map((d) => {
               return (
                 <div key={d.text} className='p-4 md:w-1/3 sm:mb-0 mb-6 c1'>
-                  <div className='bg dark:bg_dark w-full h-[500px] transition-all duration-300 rounded-2xl hover:text-black scale-105 bg-gradient-to-b'>
+                  <div className='bg dark:bg_dark w-full h-[300px] transition-all duration-300 rounded-2xl hover:text-black scale-105 bg-gradient-to-b'>
                     <h2 className='text-xl mb-4 font-medium title-font text-red-700 mt-5'>
                       {d.heading}
                     </h2>
-                    <div className='rounded-lg h-64 overflow-hidden'>
+                    {/* <div className='rounded-lg h-64 overflow-hidden'>
                       <img
                         alt='content'
                         className='hover:scale-125 transition-all duration-500 object-cover object-center h-full w-full'
                         src={d.image}
                       />
-                    </div>
+                    </div> */}
 
                     <p className='text-base leading-relaxed mt-2'>{d.text}</p>
                   </div>
