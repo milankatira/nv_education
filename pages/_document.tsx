@@ -14,7 +14,7 @@ export default class MyDocument extends Document<DocumentProps> {
           <meta charSet='UTF-8' />
 
           <link rel='icon' href='/favicon.ico' />
-
+          <title>Nv Education</title>
           <noscript>
             {/*
               Here we ignore the following recommendation to solve possible SSR problems with noscript browsers/visitors
