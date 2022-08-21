@@ -26,7 +26,7 @@ export default function Footer() {
           </svg>
         </div>
         <div className='container mx-auto px-4'>
-          <div className='flex flex-wrap text-center lg:text-left'>
+          <div className='flex flex-wrap text-left'>
             <div className='w-full lg:w-6/12 px-4'>
               <h4 className='text-3xl font-semibold dark:text-black'>
                 Let's keep in touch!
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
             <div className='w-full lg:w-6/12 px-4'>
               <div className='flex flex-wrap items-top mb-6'>
-                <div className='w-full lg:w-4/12 px-4 ml-auto'>
+                <div className='w-full lg:w-4/12'>
               
                   <ul className='list-unstyled dark:text-black text-red-500'>
                     <div className='flex flex-col'>
@@ -98,7 +98,7 @@ export default function Footer() {
                     </div>
                   </ul>
                 </div>
-                <div className='w-full lg:w-4/12 px-4 ml-auto'>
+                <div className='w-full lg:w-4/12 ml-auto'>
                   <span className='block uppercase text-blueGray-500 text-sm font-semibold mb-2 dark:text-black'>
                     Useful Links
                   </span>
