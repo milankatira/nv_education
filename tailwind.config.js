@@ -16,6 +16,10 @@ module.exports = {
         'regal-blue-light': '#2db2b2',
       },
       backgroundImage: {
+        'c1': "url('/c1.jpg')",
+        'c2': "url('/c2.jpg')",
+        'c3': "url('/c3.jpg')",
+
         'main-bg': "url('/mail_bg.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
       },

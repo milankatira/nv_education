@@ -1,6 +1,7 @@
 export const main = {
-  M1: 'Welcome to',
-  M2: "NV EDUCATION'S",
+  M1: 'JIGNESH',
+  M2: "PRAJAPATI",
+  M3:"Career Coach & Life Clarity Coatch"
 };
 
 export const course = {

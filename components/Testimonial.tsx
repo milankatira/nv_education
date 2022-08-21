@@ -7,6 +7,8 @@ export default class Testimonials extends Component {
   render() {
     return (
       <Carousel
+        data-aos='zoom-in-down'
+        data-aos-delay='500'
         showArrows={false}
         infiniteLoop={true}
         showThumbs={false}

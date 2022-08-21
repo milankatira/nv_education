@@ -11,6 +11,7 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.1",
     "@fortawesome/fontawesome-free": "5.15.3",
+    "aos": "^2.3.4",
     "moment": "^2.29.4",
     "next": "12.2.5",
     "next-themes": "^0.2.0",
@@ -20,6 +21,7 @@
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/node": "18.7.4",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
