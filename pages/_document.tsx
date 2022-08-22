@@ -10,11 +10,11 @@ export default class MyDocument extends Document<DocumentProps> {
   render(): JSX.Element {
     return (
       <Html lang='pt'>
+          <title>Nv Education</title>
         <Head>
           <meta charSet='UTF-8' />
 
-          <link rel='icon' href='/favicon.ico' />
-          <title>Nv Education</title>
+          <link rel='icon' href='/NVlogo.png' />
           <noscript>
             {/*
               Here we ignore the following recommendation to solve possible SSR problems with noscript browsers/visitors
