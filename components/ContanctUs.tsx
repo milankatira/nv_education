@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { email } from '../data';
 
 const ContanctUs = () => {
+  const [name, setname] = useState('');
+  const [subject, setsubject] = useState('');
+  const [Email, setEmail] = useState('');
+  const [message, setmessage] = useState('');
+  const submitForm = () => {
+    window.open(
+      `mailto:${email}?subject=${encodeURIComponent(
+        subject,
+      )}&body=${encodeURIComponent(name)} : ${encodeURIComponent(message)}`,
+    );
+  };
   return (
     <div>
       <div className='bg-white dark:bg-red-200 pb-24 pt-4'>
@@ -27,6 +39,8 @@ const ContanctUs = () => {
                       Full Name
                     </label>
                     <input
+                      value={name}
+                      onChange={(e) => setname(e.target.value)}
                       type='text'
                       className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600  rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
                       placeholder='Full Name'
@@ -44,6 +58,24 @@ const ContanctUs = () => {
                       type='email'
                       className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
                       placeholder='Email'
+                      value={Email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </div>
+
+                  <div className='relative w-full mb-3'>
+                    <label
+                      className='block uppercase text-blueGray-600 text-xs font-bold mb-2 text-black'
+                      htmlFor='email'
+                    >
+                      Subject
+                    </label>
+                    <input
+                      type='text'
+                      className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
+                      placeholder='subject'
+                      value={subject}
+                      onChange={(e) => setsubject(e.target.value)}
                     />
                   </div>
 
@@ -57,14 +89,17 @@ const ContanctUs = () => {
                     <textarea
                       rows={4}
                       cols={80}
+                      value={message}
+                      onChange={(e) => setmessage(e.target.value)}
                       className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 rounded text-sm shadow focus:outline-none focus:ring w-full'
                       placeholder='Type a message...'
                     />
                   </div>
                   <div className='text-center mt-6'>
                     <button
-                      className='bg-gray-100 text-red-500 active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
+                      className='bg-gray-100 text-red-500 active:bg-red-700 active:text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
                       type='button'
+                      onClick={() => submitForm()}
                     >
                       Send Message
                     </button>
