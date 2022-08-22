@@ -88,9 +88,6 @@ export default function Footer() {
                       <Link href={`mailto:${email}`}>
                         <span>{email}</span>
                       </Link>
-                      {/* <a href={`mailto:${email}`}>
-                        <a>{email}</a>
-                      </a> */}
                       <svg
                         className='mt-4 w-5 h-5 text-black fill-current'
                         xmlns='http://www.w3.org/2000/svg'
