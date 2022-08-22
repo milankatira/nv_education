@@ -63,7 +63,7 @@ const ContanctUs = () => {
                   </div>
                   <div className='text-center mt-6'>
                     <button
-                      className='bg-white0 text-white active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
+                      className='bg-gray-100 text-red-500 active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150'
                       type='button'
                     >
                       Send Message

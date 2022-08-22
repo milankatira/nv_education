@@ -65,7 +65,7 @@ export default function Footer() {
             <div className='w-full lg:w-6/12 px-4'>
               <div className='flex flex-wrap items-top mb-6'>
                 <div className='w-full lg:w-4/12'>
-                  <ul className='list-unstyled dark:text-black bg-white0'>
+                  <ul className='list-unstyled dark:text-black text-red-500'>
                     <div className='flex flex-col'>
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
