@@ -3,13 +3,21 @@ import React from 'react';
 import { course, CourseContain } from '../data';
 const About = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full px-8'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
-        <div className='text-4xl font-sans font-bold text-red-700'>
+        <div
+          className='text-4xl font-sans font-bold text-red-700'
+          data-aos='fade-up'
+          data-aos-delay='300'
+        >
           {course.heading}
         </div>
-        <div className='text-base font-sans font-semibold mt-5'>
+        <div
+          className='text-base font-sans font-semibold mt-5'
+          data-aos='fade-up'
+          data-aos-delay='400'
+        >
           {course.text}
         </div>
       </div>
