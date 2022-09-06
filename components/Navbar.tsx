@@ -67,11 +67,10 @@ const Navbar = () => {
           <Link href='/'>
             <a className='flex title-font font-medium items-center text-gray-900 dark:text-white md:mb-0'>
               <img
-                className='w-auto h-20 text-white'
+                className='w-auto h-32 text-white'
                 src='/NVlogo.png'
                 alt=''
               />
-              <span className='ml-3 text-xl dark:text-black'>NV Education</span>
             </a>
           </Link>
 

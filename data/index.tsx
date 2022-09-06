@@ -11,18 +11,21 @@ export const course = {
 
 export const CourseContain = [
   {
+    link: '/personality_development',
     image: '/c1.jpg',
     heading: 'Personality Development',
     text: 'Six Pillars of Personality Development, Different Type Of Personality, Positive Attitude, To Know - Who Am I?',
   },
   {
+    link: '/spoken_english',
     image: '/c2.jpg',
     heading: 'Spoken English',
     text: 'English From Basic to Advance, GroupDiscussion, Communication, Interview Techniques, Presentation Techniques',
   },
   {
+    link: '/mind_development',
     image: '/c3.jpg',
-    heading: 'DMIT Report',
+    heading: 'Mind development',
     text: 'DMIT Report For Students For English From Basic to Advance Group Discussion Communication, interview Techniques Presentation TechniquesChildern For Adults For CorporatesFor Professionals For Teacher',
   },
 ];
