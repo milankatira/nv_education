@@ -64,9 +64,21 @@ const Gallery = () => {
           <div className='flex flex-wrap -m-4'>
             {/* <ImageSection src='/g1.jpg' /> */}
             {/* <ImageSection src='/g2.jpg' /> */}
-            <ImageSection src='/g3.jpg' />
-            <ImageSection src='/g4.jpg' />
-            <ImageSection src='/g5.jpg' />
+            <ImageSection src='/g_1.jpeg' />
+            <ImageSection src='/g_2.jpeg' />
+            <ImageSection src='/g_3.jpeg' />
+            <ImageSection src='/g_4.jpeg' />
+            <ImageSection src='/g_5.jpeg' />
+            <ImageSection src='/g_6.jpeg' />
+            <ImageSection src='/g_7.jpeg' />
+            <ImageSection src='/g_8.jpeg' />
+            <ImageSection src='/g_9.jpeg' />
+            <ImageSection src='/g_10.jpeg' />
+            <ImageSection src='/g_11.jpeg' />
+            <ImageSection src='/g_12.jpeg' />
+            <ImageSection src='/g_13.jpeg' />
+            <ImageSection src='/g_14.jpeg' />
+            <ImageSection src='/g_15.jpeg' />
           </div>
         </div>
       </section>
