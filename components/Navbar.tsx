@@ -103,9 +103,9 @@ const Navbar = () => {
                 DMIT REPORT
               </a>
             </Link>
-            <Link href='/events'>
+            <Link href='/certificate'>
               <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
-                EVENTS
+                CERTIFICATE
               </a>
             </Link>
             <Link href='/gallery'>

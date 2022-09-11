@@ -81,9 +81,8 @@ const Events = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            <ImageSection src='/e1.jpg' />
-            <ImageSection src='/e2-2.jpg' />
-            <ImageSection src='/e3-3.jpg' />
+            <ImageSection src='/g1.jpg' />
+            <ImageSection src='/g2.jpg' />
           </div>
         </div>
       </section>
