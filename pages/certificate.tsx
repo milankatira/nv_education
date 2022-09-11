@@ -1,19 +1,28 @@
 import React from 'react';
 interface AccordionFieldProps {
   src: string;
+  size?: string;
 }
 
-export const ImageSection: React.FC<AccordionFieldProps> = ({ src }) => {
+export const ImageSection: React.FC<AccordionFieldProps> = ({ src, size }) => {
   const [modal, setModal] = React.useState(false);
   return (
     <div className='lg:w-1/3 sm:w-1/2 p-4'>
       <div
-        className='rounded-lg h-64 overflow-hidden'
+        className={
+          size
+            ? 'rounded-lg h-full overflow-hidden'
+            : `rounded-lg h-64 overflow-hidden`
+        }
         onClick={() => setModal(true)}
       >
         <img
           alt='content'
-          className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+          className={
+            size
+              ? `object-cover object-center h-full w-full hover:scale-125 transition-all duration-500  scale-95`
+              : `object-cover object-center h-full w-full hover:scale-125 transition-all duration-500`
+          }
           src={src}
         />
       </div>
@@ -39,6 +48,9 @@ export const ImageSection: React.FC<AccordionFieldProps> = ({ src }) => {
                     alt='content'
                     className='object-cover object-center h-[500px] w-[600px]'
                     src={src}
+                    // rounded-lg
+                    // h-64
+                    // overflow-hidden
                   />
                 </div>
               </div>
@@ -83,13 +95,34 @@ const Events = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            <ImageSection src='/c_1.jpeg' />
-            <ImageSection src='/c_2.jpeg' />
-            <ImageSection src='/c_3.jpeg' />
-            <ImageSection src='/c_4.jpeg' />
-            <ImageSection src='/c_5.jpeg' />
-            <ImageSection src='/c_6.jpeg' />
-            <ImageSection src='/c_7.jpeg' />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_1.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_2.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_3.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_4.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_5.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_6.jpeg'
+            />
+            <ImageSection
+              size='rounded-lg h-full overflow-hidden'
+              src='/c_7.jpeg'
+            />
           </div>
         </div>
       </section>
