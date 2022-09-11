@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import { phone_number, email } from '../data';
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
+  useEffect(() => {
+    setTheme('light');
+  }, []);
 
   return (
     <>
@@ -55,7 +58,6 @@ const Navbar = () => {
                       href='https://www.instagram.com/nveducations/'
                     >
                       <i className='fab fa-instagram-square text-lg leading-lg text-black opacity-75'></i>
-
                     </a>
                   </li>
                 </ul>
@@ -124,8 +126,8 @@ const Navbar = () => {
               </a>
             </Link>
           </nav>
-          <button
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+          {/* <button
+            // onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className='border-none decoration-none flex justify-center items-center mr-auto ml-auto'
           >
             {theme === 'dark' ? (
@@ -148,7 +150,7 @@ const Navbar = () => {
                 <path d='M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z'></path>
               </svg>
             )}
-          </button>
+          </button> */}
         </div>
       </header>
     </>
