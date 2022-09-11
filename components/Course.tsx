@@ -22,7 +22,7 @@ const About = () => {
             {CourseContain.map((d) => {
               return (
                 <div key={d.text} className='p-4 md:w-1/3 sm:mb-0 mb-6'>
-                  <h2 className='text-xl text-center m-4 font-medium title-font text-red-700 mt-5'>
+                  <h2 className='text-lg font-bold uppercase text-center m-4 title-font text-red-700 mt-5'>
                     {d.heading}
                   </h2>
                   <div className='example rounded-lg h-64 overflow-hidden'>
