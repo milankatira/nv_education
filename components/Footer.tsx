@@ -52,7 +52,7 @@ export default function Footer() {
                   </button>
                 </a>
 
-                <a href='https://www.instagram.com/nveducation/'>
+                <a href='https://www.instagram.com/nveducations/'>
                   <button
                     className='hover:scale-125 hover:transition-all duration-500 bg-white text-red-700 text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
                     type='button'

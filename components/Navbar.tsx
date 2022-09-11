@@ -52,7 +52,7 @@ const Navbar = () => {
                   <li className='nav-item'>
                     <a
                       className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75'
-                      href='https://www.instagram.com/nveducation/'
+                      href='https://www.instagram.com/nveducations/'
                     >
                       <i className='fab fa-instagram-square text-lg leading-lg text-black opacity-75'></i>
 
