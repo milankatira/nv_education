@@ -62,8 +62,8 @@ const Gallery = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            <ImageSection src='/g1.jpg' />
-            <ImageSection src='/g2.jpg' />
+            {/* <ImageSection src='/g1.jpg' /> */}
+            {/* <ImageSection src='/g2.jpg' /> */}
             <ImageSection src='/g3.jpg' />
             <ImageSection src='/g4.jpg' />
             <ImageSection src='/g5.jpg' />

@@ -76,7 +76,7 @@ const Events = () => {
     <div className='w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center mt-4'>
-        <div className='text-4xl font-sans font-bold text-red-700'>Events</div>
+        <div className='text-4xl font-sans font-bold text-red-700'>Certificates</div>
       </div>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>

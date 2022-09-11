@@ -18,7 +18,7 @@ const Dmitreport = () => {
                 <img
                   alt='content'
                   className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
-                  src='/d1.jpg'
+                  src='/dm1.jpeg'
                 />
               </div>
             </div>
@@ -27,7 +27,7 @@ const Dmitreport = () => {
                 <img
                   alt='content'
                   className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
-                  src='/d3.jpg'
+                  src='/dm2.jpeg'
                 />
               </div>
             </div>
@@ -38,7 +38,7 @@ const Dmitreport = () => {
                 <img
                   alt='content'
                   className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
-                  src='/d8.jpg'
+                  src='/dm_3.jpeg'
                 />
               </div>
             </div>
@@ -47,7 +47,28 @@ const Dmitreport = () => {
                 <img
                   alt='content'
                   className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
-                  src='/d9.jpg'
+                  src='/dm_4.jpeg'
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -mx-4 -mb-10 text-center'>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  src='/dm_5.jpeg'
+                />
+              </div>
+            </div>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  src='/dm_6.jpeg'
                 />
               </div>
             </div>
