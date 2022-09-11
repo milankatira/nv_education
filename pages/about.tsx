@@ -6,10 +6,9 @@ const About = () => {
     <div className='w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center'>
-        <div className='text-4xl font-sans font-bold text-red-700 mt-5'>
-          Popular course
+        <div className='text-4xl font-sans font-bold text-black mt-5'>
+          Meet your Career Counselor
         </div>
-        <div className='text-base font-sans font-semibold'>Popular course</div>
       </div>
 
       {/* //TODO:main */}
