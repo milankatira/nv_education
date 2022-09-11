@@ -10,7 +10,7 @@ const mind_development = () => {
               <div className='rounded-lg h-64 overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full'
+                  className='hover:scale-110 transition-all duration-500 object-cover object-center h-full w-full'
                   src='https://dummyimage.com/1203x503'
                 />
               </div>
@@ -41,7 +41,7 @@ const mind_development = () => {
               <div className='rounded-lg h-64 overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full'
+                  className='hover:scale-110 transition-all duration-500 object-cover object-center h-full w-full'
                   src='https://dummyimage.com/1204x504'
                 />
               </div>
@@ -72,7 +72,7 @@ const mind_development = () => {
               <div className='rounded-lg h-64 overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full'
+                  className='hover:scale-110 transition-all duration-500 object-cover object-center h-full w-full'
                   src='https://dummyimage.com/1205x505'
                 />
               </div>

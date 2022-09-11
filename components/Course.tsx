@@ -28,17 +28,15 @@ const About = () => {
                   <div className='example rounded-lg h-64 overflow-hidden'>
                     <img
                       alt='content'
-                      className='hover:scale-125 transition-all duration-500 object-cover object-center h-full w-full'
+                      className='hover:scale-110 transition-all duration-500 object-cover object-center h-full w-full'
                       src={d.image}
                     />
                     <div className='content'>
                       <Link href={d.link}>
                         <a className='text'>Learn More</a>
                       </Link>
-                      
                     </div>
                   </div>
-
                 </div>
               );
             })}

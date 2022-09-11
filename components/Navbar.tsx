@@ -9,8 +9,8 @@ const Navbar = () => {
     <>
       <header className='dark:bg-red-200 text-gray-600 dark:text-gray-200 body-font sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-20'>
         <div>
-          <nav className='relative hidden lg:flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg border-b border-gray-300 dark:border-red-400 mx-8'>
-            <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
+          <nav className='relative hidden lg:flex flex-wrap items-center justify-between px-4 navbar-expand-lg border-b border-gray-300 dark:border-red-400 mx-8'>
+            <div className='container px-2 mx-auto flex flex-wrap items-center justify-between'>
               <div className='w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start'>
                 <a className='text-sm mr-4 py-2 whitespace-no-wrap text-black flex flex-row'>
                   <svg
@@ -63,7 +63,7 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-        <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
+        <div className='container mx-auto flex flex-wrap flex-col md:flex-row items-center'>
           <Link href='/'>
             <a className='flex title-font font-medium items-center text-gray-900 dark:text-white md:mb-0'>
               <img
@@ -76,50 +76,50 @@ const Navbar = () => {
 
           <nav className='md:ml-auto md:mr-auto font-bold flex flex-wrap items-center text-base justify-center transition-all duration-300'>
             <Link href='/'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900'>
                 HOME
               </a>
             </Link>
             <Link href='/about'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900'>
                 ABOUT
               </a>
             </Link>
 
             <a
               href='https://nveducation.edumilestones.com/'
-              className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900'
+              className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900'
             >
               CAREER
             </a>
 
             <Link href='/course'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 COURSE
               </a>
             </Link>
             <Link href='/dmitreport'>
-              <a className=' transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className=' transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 DMIT REPORT
               </a>
             </Link>
             <Link href='/events'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 EVENTS
               </a>
             </Link>
             <Link href='/gallery'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 GALLERY
               </a>
             </Link>
             <Link href='/business'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 BADA BUSINESS
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='transition-all duration-300 text-red-700 dark:text-black mr-5 hover:text-gray-900 '>
+              <a className='transition-all duration-300 text-black dark:text-black mr-5 hover:text-gray-900 '>
                 CONTACT
               </a>
             </Link>
