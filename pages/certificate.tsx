@@ -11,7 +11,7 @@ export const ImageSection: React.FC<AccordionFieldProps> = ({ src, size }) => {
       <div
         className={
           size
-            ? 'rounded-lg h-full overflow-hidden'
+            ? 'rounded-lg h-full'
             : `rounded-lg h-64 overflow-hidden`
         }
         onClick={() => setModal(true)}
@@ -96,31 +96,31 @@ const Events = () => {
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_1.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_2.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_3.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_4.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_5.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_6.jpeg'
             />
             <ImageSection
-              size='rounded-lg h-full overflow-hidden'
+              size='rounded-lg h-full'
               src='/c_7.jpeg'
             />
           </div>
