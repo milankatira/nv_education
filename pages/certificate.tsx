@@ -76,13 +76,20 @@ const Events = () => {
     <div className='w-full'>
       {/* //TODO:HEADER */}
       <div className=' flex justify-center flex-col items-center mt-4'>
-        <div className='text-4xl font-sans font-bold text-red-700'>Certificates</div>
+        <div className='text-4xl font-sans font-bold text-red-700'>
+          Certificates
+        </div>
       </div>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            <ImageSection src='/g1.jpg' />
-            <ImageSection src='/g2.jpg' />
+            <ImageSection src='/c_1.jpeg' />
+            <ImageSection src='/c_2.jpeg' />
+            <ImageSection src='/c_3.jpeg' />
+            <ImageSection src='/c_4.jpeg' />
+            <ImageSection src='/c_5.jpeg' />
+            <ImageSection src='/c_6.jpeg' />
+            <ImageSection src='/c_7.jpeg' />
           </div>
         </div>
       </section>
