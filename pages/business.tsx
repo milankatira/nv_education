@@ -2,6 +2,7 @@ import React from 'react';
 
 interface AccordionFieldProps {
   src: string;
+  height?: number;
 }
 
 export const ImageSection: React.FC<AccordionFieldProps> = ({ src }) => {
@@ -9,7 +10,9 @@ export const ImageSection: React.FC<AccordionFieldProps> = ({ src }) => {
   return (
     <div className='lg:w-1/3 sm:w-1/2 p-4'>
       <div
-        className='rounded-lg h-64 overflow-hidden'
+        className={
+          `rounded-lg overflow-hidden`
+        }
         onClick={() => setModal(true)}
       >
         <img
@@ -87,6 +90,12 @@ const Business = () => {
             <ImageSection src='/bb1.jpg' />
             <ImageSection src='/bb2.jpg' />
             <ImageSection src='/bb3.jpg' />
+            <ImageSection src='/bb4.jpg' />
+            <ImageSection src='/bb5.jpg' />
+            <ImageSection src='/bb6.jpg' />
+            <ImageSection src='/bb7.jpg' />
+            <ImageSection src='/bb8.jpg' />
+            <ImageSection src='/bb9.jpg' />
           </div>
         </div>
       </section>

@@ -17,7 +17,70 @@ const Dmitreport = () => {
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_7.jpeg'
+                />
+              </div>
+            </div>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_8.jpeg'
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -mx-4 mb-10 text-center'>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_9.jpeg'
+                />
+              </div>
+            </div>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_10.jpeg'
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -mx-4 mb-10 text-center'>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_11.jpeg'
+                />
+              </div>
+            </div>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
+                  src='/dm_12.jpeg'
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-wrap -mx-4 mb-10 text-center'>
+            <div className='sm:w-1/2 mb-10 px-4'>
+              <div className='rounded-lg overflow-hidden'>
+                <img
+                  alt='content'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm1.jpeg'
                 />
               </div>
@@ -26,18 +89,19 @@ const Dmitreport = () => {
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm2.jpeg'
                 />
               </div>
             </div>
           </div>
+
           <div className='flex flex-wrap -mx-4 -mb-10 text-center'>
             <div className='sm:w-1/2 mb-10 px-4'>
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm_3.jpeg'
                 />
               </div>
@@ -46,7 +110,7 @@ const Dmitreport = () => {
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm_4.jpeg'
                 />
               </div>
@@ -58,7 +122,7 @@ const Dmitreport = () => {
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm_5.jpeg'
                 />
               </div>
@@ -67,7 +131,7 @@ const Dmitreport = () => {
               <div className='rounded-lg overflow-hidden'>
                 <img
                   alt='content'
-                  className='object-cover object-center h-full w-full hover:scale-125 transition-all duration-500'
+                  className='object-cover object-center h-full w-full hover:scale-110 transition-all duration-500'
                   src='/dm_6.jpeg'
                 />
               </div>
