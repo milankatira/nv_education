@@ -15,15 +15,7 @@ const spoken_english = () => {
                 />
               </div>
             </div>
-            <div className='p-4 md:w-1/2 sm:mb-0 mb-6'>
-              <div className='rounded-lg h-full overflow-hidden'>
-                <img
-                  alt='content'
-                  className='hover:scale-110 transition-all duration-500 object-cover object-center h-full w-full'
-                  src='/sp_2.jpeg'
-                />
-              </div>
-            </div>
+           
             <div className='p-4 md:w-1/2 sm:mb-0 mb-6'>
               <div className='rounded-lg h-full overflow-hidden'>
                 <img
