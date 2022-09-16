@@ -107,7 +107,6 @@ const About = () => {
         </div>
       </section>
       <div className='w-full'>
-    
         <section className='text-gray-600 body-font'>
           <div className='container px-5 py-24 mx-auto'>
             <div className='flex flex-wrap'>
@@ -118,6 +117,8 @@ const About = () => {
               <ImageSection src='/ab5.jpg' />
               <ImageSection src='/ab6.jpg' />
               <ImageSection src='/ab7.jpg' />
+              <ImageSection src='/ab8.jpg' />
+              <ImageSection src='/ab9.jpg' />
             </div>
           </div>
         </section>
